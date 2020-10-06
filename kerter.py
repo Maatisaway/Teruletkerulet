@@ -43,6 +43,15 @@ v=input("Milyen alakzattal szeretnél dolgozni?")
 if v=="3":
 	print(teglalapKerulet())
 	print(teglalapTerulet())
+elif v=="1":
+	print(haromszogKerulet())
+	print(haromszogTerulet())
+elif v=="2":
+	print(korKerulet())
+	print(korTerulet())
+else:
+	print(nyolcszogKerulet())
+	print(nyolcszogTerulet())
 
 
 

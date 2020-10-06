@@ -12,6 +12,10 @@ def teglalapTerulet():
 def nyolcszogKerulet():
 	a=float(input("Kérem a 8szög oldalát[cm]:"))	
 	return float(8*a)
+def nyolcszogKerulet():
+	a=float(input("Kérem a 8szög oldalát[cm]:"))	
+	r=float(input("Kérem a 8szög sugarát[cm]:"))	
+	return float(4*a*r)
 	
 def haromszogKerulet():
 	a=float(input("Kérem adja meg a háromszög egyik oldalát:")

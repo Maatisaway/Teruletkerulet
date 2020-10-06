@@ -23,6 +23,10 @@ def haromszogKerulet():
 	b=float(input("Kérem adja meg a háromszög másik oldalát:"))
 	c=float(input("Kérem adja meg a háromszög harmadik oldalát:"))
 	return float(a+b+c)
+def haromszogTerulet():
+	a=float(input("Kérem adja meg a háromszög adott oldalát:"))
+	ma=float(input("Kérem adja meg a háromszög adott oldalának a magasságát:"))
+	return float(a*ma/2)
 	
 	
 print("1 - Háromszög")

@@ -14,3 +14,10 @@ def haromszogKerulet():
 	b=float(input("Kérem adja meg a háromszög másik oldalát:")
 	c=float(input("Kérem adja meg a háromszög harmadik oldalát:")
 	return float()
+def nyolcszogKerulet():
+	a = input("Kérem adja meg a nyolcszög egyik oldalát[cm]")
+	b = input("Kérem adja meg a nyolcszög második oldalát[cm]")
+	c = input("Kérem adja meg a nyolcszög harmadik oldalát[cm]")
+	d = input("Kérem adja meg a nyolcszög negyedik oldalát[cm]")
+	
+	return float(2*(a+b+c+d)
